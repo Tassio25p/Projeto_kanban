@@ -1,0 +1,56 @@
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite3
+*.db
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+Logs e diagnósticos
+
+*.log
+logs/
+
+Testes e cobertura de código
+
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+Sistema operacional (Windows / macOS / Linux)
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+Builds e empacotamento (caso use Poetry, Flit, setuptools)
+
+dist/
+build/
+*.egg-info/
+*.egg
